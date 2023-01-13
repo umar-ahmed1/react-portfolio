@@ -1,11 +1,11 @@
-.connect{
+.projects{
     display:flex;
     align-items:center;
     justify-content: center;
-    margin-top:10%;
+    margin-top:30%;
 }
 
-.connect-wrapper{
+.projects-wrapper{
     background:rgb(255, 255, 255);
     padding: 10px 10px;
 }
