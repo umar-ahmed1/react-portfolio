@@ -3,24 +3,34 @@
     align-items:center;
     justify-content: center;
     margin-top:30%;
+    width:75%;
+    margin-left:15%;
 }
 
 .projects-wrapper{
-    background:rgb(255, 255, 255);
     padding: 20px 20px;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    width:100%;
 }
 
 .projects-header{
     margin-bottom:15px;
+    font-size:3rem;
+    color:rgb(49,49,49);
 }
 
 .projects-languages button{
     margin-right:5px;
     margin-left:5px;
+    padding: 1rem 1.5rem;
+    font-weight:700;
+    font-size:1rem;
+    background:rgb(49, 49, 49);
+    color:rgb(206, 206, 206);
+    border-radius:0.5rem;
 }
 
 .projects-languages button:hover{

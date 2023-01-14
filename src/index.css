@@ -9,6 +9,6 @@
 
 body{
   background: rgb(65,65,65);
-  background: radial-gradient(circle, rgba(65,65,65,1) 0%, rgba(29,29,29,1) 100%);
+  background: radial-gradient(circle, rgb(240, 240, 240) 0%, rgb(231, 231, 231) 100%);
   font-family: 'League Spartan';
 }

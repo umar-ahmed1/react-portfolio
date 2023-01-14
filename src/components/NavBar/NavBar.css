@@ -3,13 +3,16 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    background-color:rgb(53, 53, 53);
-    color:rgb(255, 255, 255);
-    height:5vh;
-    box-shadow: 0px 3px 15px 5px #000000;
+    background-color:rgb(216, 216, 216);
+    color:rgb(0, 0, 0);
+    height:7vh;
+    box-shadow: 0px 1px 15px 2px #838383;
+    position:relative;
 }
 
 .navbar div{
     margin-right:20px;
     margin-left:20px;
+    font-size:1.5rem;
+    color:rgb(49,49,49)
 }
