@@ -6,6 +6,10 @@ export default function Connect() {
     <div className="connect">
         <div className="connect-wrapper">
             <div>Connect</div>
+            <div>LinkedIn</div>
+            <div>Github</div>
+            <div>Instagram</div>
+            <button>Email</button>
         </div>
     </div>
   )

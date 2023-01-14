@@ -40,9 +40,16 @@ export default function Projects() {
   return (
     <section className="projects">
         <div className="projects-wrapper">
+          <h2 className="projects-header">Projects</h2>
+          <div className="projects-languages">
+            <button>All</button>
+            <button>React</button>
+            <button>Python</button>
+          </div>
           <div className="projects-grid">
             {projectsData.map( (item,index) => (
               <Project
+                key = {index}
                 title={item.title}
                 description={item.description}
                 language={item.language}

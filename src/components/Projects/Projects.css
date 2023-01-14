@@ -7,13 +7,32 @@
 
 .projects-wrapper{
     background:rgb(255, 255, 255);
-    padding: 10px 10px;
+    padding: 20px 20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.projects-header{
+    margin-bottom:15px;
+}
+
+.projects-languages button{
+    margin-right:5px;
+    margin-left:5px;
+}
+
+.projects-languages button:hover{
+    cursor:pointer;
 }
 
 .projects-grid{
+    margin-top:15px;
     display:grid;
     grid-template-rows:repeat(2,1fr);
     grid-template-columns:repeat(2,1fr);
     grid-row-gap:50px;
     grid-column-gap:50px;
 }
+

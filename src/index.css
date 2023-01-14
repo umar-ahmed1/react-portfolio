@@ -8,5 +8,7 @@
 }
 
 body{
-  background-color:rgb(44, 44, 44);
+  background: rgb(65,65,65);
+  background: radial-gradient(circle, rgba(65,65,65,1) 0%, rgba(29,29,29,1) 100%);
+  font-family: 'League Spartan';
 }
