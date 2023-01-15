@@ -1,7 +1,7 @@
 const projectsData = [
     {
       title:"React Quiz App",
-      description:"my first project it is a quiz app in react",
+      description:"This app makes API calls to a trivia database and creates a 5 question quiz based off a user-selected topic",
       language:"React",
       link:"https://umar-ahmed1.github.io/react-quiz-app/",
       github:"https://github.com/umar-ahmed1/react-quiz-app",
@@ -9,9 +9,9 @@ const projectsData = [
     },
     {
       title:"React Portfolio Website",
-      description:"I used React to make a website where i put all my stuff on it blablablab",
+      description:"This is my personal animated portolio website",
       language:"React",
-      link:"www.google.com",
+      link:"https://umar-ahmed1.github.io/react-portfolio/",
       github:"https://github.com/umar-ahmed1/react-portfolio",
       img:'https://i0.wp.com/www.alphr.com/wp-content/uploads/2022/03/How-to-Find-the-Model-Number-on-a-Laptop.jpg?resize=738%2C320&ssl=1',
     },

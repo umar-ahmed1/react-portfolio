@@ -17,12 +17,13 @@
 }
 
 .projects-header{
-    margin-bottom:15px;
+    margin-bottom:1.5rem;
     font-size:3rem;
     color:rgb(49,49,49);
 }
 
 .projects-languages-button{
+    margin-bottom:1.3rem;
     margin-right:5px;
     margin-left:5px;
     padding: 0.7rem 1.1rem;
@@ -50,7 +51,7 @@
 
 .project-card{
     padding:1rem;
-    background-color:white;
+    background-color:rgb(255, 255, 255);
     border-radius:10px;
     width:500px;
     height:100%;
@@ -68,15 +69,39 @@
     font-weight:700;
     margin-top:1rem;
     font-size:1.8rem;
+    margin-bottom:1rem;
 }
 
 .project-card-description{
-    margin-bottom:3rem;
+    margin-bottom:2rem;
+}
+
+.project-card-links{
+    display:flex;
+    justify-content:start;
+    align-items:center;
 }
 
 .project-card-github{
-    position:absolute;
-    bottom:2%;
-    right:5%;
+    margin-top:5px;
+    margin-left:5px;
 }
 
+.project-card-view{
+    background-color:rgb(49,49,49);
+    color:white;
+    font-size:1.2rem;
+    padding: 0.5rem 0.5rem;
+    border-radius:0.5rem;
+    margin-right:0.3rem;
+    cursor:pointer;
+}
+
+
+@media (max-width:600px){
+    .projects-grid{
+        grid-template-columns:repeat(1,1fr);
+        grid-row-gap:7rem;
+        grid-column-gap:7rem;
+    } 
+}
