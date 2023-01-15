@@ -22,7 +22,7 @@
     color:rgb(49,49,49);
 }
 
-.projects-languages button{
+.projects-languages-button{
     margin-right:5px;
     margin-left:5px;
     padding: 0.7rem 1.1rem;
@@ -30,14 +30,12 @@
     font-size:1.5rem;
     color:rgba(49, 49, 49, 0.774);
     border-radius:0.5rem;
+    cursor:pointer;
 }
 
-.projects-languages button:hover{
+.projects-languages-button.clicked{
     background-color:rgb(49,49,49);
     color:white;
-}
-
-.projects-languages button:hover{
     cursor:pointer;
 }
 
