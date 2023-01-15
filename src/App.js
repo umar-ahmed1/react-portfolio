@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from './components/NavBar/NavBar'
 import Home from './components/Home/Home'
-import Projects from './components/Projects/Projects'
+import Portfolio from './components/Portfolio/Portfolio'
 import Connect from './components/Connect/Connect'
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <>
       <NavBar/>
       <Home/>
-      <Projects/>
+      <Portfolio/>
       <Connect/>
     </>
   );

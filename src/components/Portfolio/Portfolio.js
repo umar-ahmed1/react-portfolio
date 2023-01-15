@@ -1,12 +1,12 @@
 import React from 'react'
-import './Projects.css'
+import './Portfolio.css'
 import Project from './Project' 
 import projectsData from './ProjectsData'
 
 
 
 
-export default function Projects() {
+export default function Portfolio() {
   const [data,setData] = React.useState(projectsData)
   const [filteredData,setFilteredData] = React.useState(data)
   
@@ -24,7 +24,7 @@ export default function Projects() {
   return (
     <section className="projects">
         <div className="projects-wrapper">
-          <h2 className="projects-header">Projects</h2>
+          <h2 className="projects-header">Portfolio</h2>
           <div className="projects-languages">
             <button id={'All'} onClick= {(e) => filterProjects(e.target.id)}>All</button>
             <button id={'React'} onClick= {(e) => filterProjects(e.target.id)}>React</button>

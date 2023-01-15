@@ -8,7 +8,7 @@ export default function About()  {
           <div className="profile-picture"></div>
           <div className="profile-details">
             <div className="name">Hi, I'm Umar Ahmed</div>
-            <div className="description">I am a Web Developer with a background in React.js and Python, currently looking for 2023 Internships. </div>
+            <div className="description">I am a Front-End Developer from Calgary, Alberta </div>
             <button className="button cv">Download CV</button>
           </div>
           

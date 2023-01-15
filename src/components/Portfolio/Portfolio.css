@@ -25,12 +25,16 @@
 .projects-languages button{
     margin-right:5px;
     margin-left:5px;
-    padding: 1rem 1.5rem;
+    padding: 0.7rem 1.1rem;
     font-weight:700;
-    font-size:1rem;
-    background:rgb(49, 49, 49);
-    color:rgb(206, 206, 206);
+    font-size:1.5rem;
+    color:rgba(49, 49, 49, 0.774);
     border-radius:0.5rem;
+}
+
+.projects-languages button:hover{
+    background-color:rgb(49,49,49);
+    color:white;
 }
 
 .projects-languages button:hover{
@@ -49,7 +53,6 @@
 .project-card{
     padding:1rem;
     background-color:white;
-    border:3px solid rgb(49,49,49);
     border-radius:10px;
     width:500px;
     height:100%;
@@ -59,7 +62,8 @@
 }
 
 .project-img{
-    width:100%
+    width:100%;
+    border-radius:10px;
     }
 
 .project-card-title{
