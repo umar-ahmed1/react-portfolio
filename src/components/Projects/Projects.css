@@ -68,6 +68,10 @@
     font-size:1.8rem;
 }
 
+.project-card-description{
+    margin-bottom:3rem;
+}
+
 .project-card-github{
     position:absolute;
     bottom:2%;
