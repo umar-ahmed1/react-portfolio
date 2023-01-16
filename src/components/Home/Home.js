@@ -5,7 +5,7 @@ import Typewriter from 'typewriter-effect'
 
 export default function About()  {
  return (
-    <section className="home">
+    <section className="home" id="home">
         <div className="home-wrapper">
           <div className="profile-picture"></div>
           <div className="profile-details">
