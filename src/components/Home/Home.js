@@ -16,6 +16,7 @@ export default function About()  {
                 strings: ['I am a Front-End Developer from Calgary, Alberta.', 'I like to make web applications.','Welcome to my portfolio!'],
                 autoStart: true,
                 loop: true,
+                delay:100,
               }}
             />
               
