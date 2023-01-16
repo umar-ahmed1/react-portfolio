@@ -15,7 +15,15 @@ const projectsData = [
       github:"https://github.com/umar-ahmed1/react-portfolio",
       img:'https://i0.wp.com/www.alphr.com/wp-content/uploads/2022/03/How-to-Find-the-Model-Number-on-a-Laptop.jpg?resize=738%2C320&ssl=1',
     },
-    {
+    
+  
+  ]
+
+  export default projectsData
+
+
+  /*
+  {
       title:"Python Snake Game",
       description:"my first project",
       language:"Python",
@@ -31,7 +39,4 @@ const projectsData = [
       github:"www.github.com",
       img:'https://i0.wp.com/www.alphr.com/wp-content/uploads/2022/03/How-to-Find-the-Model-Number-on-a-Laptop.jpg?resize=738%2C320&ssl=1',
     },
-  
-  ]
-
-  export default projectsData
+    */

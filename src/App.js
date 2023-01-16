@@ -3,12 +3,14 @@ import NavBar from './components/NavBar/NavBar'
 import Home from './components/Home/Home'
 import Portfolio from './components/Portfolio/Portfolio'
 import Connect from './components/Connect/Connect'
+import Skills from './components/Skills/Skills'
 
 function App() {
   return (
     <>
       <NavBar/>
       <Home/>
+      <Skills/>
       <Portfolio/>
       <Connect/>
     </>
