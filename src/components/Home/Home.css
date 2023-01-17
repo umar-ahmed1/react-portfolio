@@ -7,14 +7,6 @@
     margin-left:15%;
 }
 
-.home-wrapper{
-    padding: 10px 10px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width:100%;
-}
-
 .profile-picture{
     width:30%;
     height:20rem;
@@ -36,16 +28,17 @@
     font-weight:700;
     font-size:3rem;
     text-align:left;
-    margin-bottom:4rem;
-    color:rgb(49,49,49)
+    margin-bottom:3.5rem;
+    color:rgb(49,49,49);
 }
 
 .description{
     text-align:left;
-    margin-bottom:4rem;
+    margin-bottom:4.5rem;
     color:rgb(49,49,49);
     font-size:2rem;
     max-width:80%;
+    height:3rem;
 }
 
 .button.cv{

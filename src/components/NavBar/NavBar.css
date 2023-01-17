@@ -10,10 +10,14 @@
     top:0;
     right:0;
     left:0;
+    background-color:rgba(240, 240, 240, 0.99);
+    transition: all 0.3s;
+    
 }
 
 .navbar.inactive{
-    display:none;
+    top:-6rem;
+    transition: all 0.3s;
 }
 
 .navbar a{
@@ -24,5 +28,6 @@
     margin-right:20px;
     margin-left:20px;
     font-size:1.6rem;
-    color:rgb(49,49,49)
+    color:rgb(49,49,49);
+    cursor:pointer;
 }

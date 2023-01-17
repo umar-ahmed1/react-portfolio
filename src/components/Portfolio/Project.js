@@ -3,7 +3,7 @@ import React from 'react'
 export default function Project({title,description,link,github,img}) {
   return (
     <div className="project-card">
-      <img className="project-img" src={img}/>
+      <img className="project-img" src={img} alt="project img"/>
       <div className="project-card-title">{title}</div>
       <div className="project-card-description">{description}</div>
       <div className="project-card-links">

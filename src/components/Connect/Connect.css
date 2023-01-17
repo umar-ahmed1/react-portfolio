@@ -1,11 +1,12 @@
 .connect{
     display:flex;
+    flex-direction:column;
     align-items:center;
     justify-content: center;
-    margin-top:10%;
-}
-
-.connect-wrapper{
-    background:rgb(255, 255, 255);
+    margin-top:20%;
+    width:75%;
+    margin-left:13%;
     padding: 10px 10px;
+    background-color:white;
+    margin-bottom:500px;
 }
