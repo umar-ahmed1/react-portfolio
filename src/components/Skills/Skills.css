@@ -3,7 +3,7 @@
     flex-direction:column;
     align-items:center;
     justify-content: center;
-    margin-top:20%;
+    margin-top:5%;
     width:75%;
     margin-left:13%;
     padding: 10px 10px;
@@ -17,10 +17,23 @@
 
 .skills-body{
     display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
-.skills-subsection{
-    font-weight:700;
+.skills-body div{
     font-size:1.5rem;
-    color:rgba(49, 49, 49, 0.774);
+    margin-left:1.5rem;
+    margin-right:1.5rem;
+}
+
+.skills-item{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.skills-item-img {
+    width:90%;
 }
