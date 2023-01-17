@@ -7,27 +7,27 @@ export default function Skills() {
         <h2 className="skills-header">Skills</h2>
         <div className="skills-body">
           <div className="skills-item">
-            <img className="skills-item-img" src="./images/html.svg"></img>
+            <img className="skills-item-img" src={require("./images/html.svg").default}></img>
             <div>HTML</div>
           </div>
           <div className="skills-item">
-            <img className="skills-item-img" src="./images/css.svg"></img>
+            <img className="skills-item-img" src={require("./images/css.svg").default}></img>
             <div>CSS</div>
           </div>
           <div className="skills-item">
-            <img className="skills-item-img" src="./images/javascript.svg"></img>
+            <img className="skills-item-img" src={require("./images/javascript.svg").default}></img>
             <div>JavaScript</div>
           </div>
           <div className="skills-item">
-            <img className="skills-item-img" src="./images/react.svg"></img>
+            <img className="skills-item-img" src={require("./images/react.svg").default}></img>
             <div>React</div>
           </div>
           <div className="skills-item">
-            <img className="skills-item-img" src="./images/java.svg"></img>
+            <img className="skills-item-img" src={require("./images/java.svg").default}></img>
             <div>Java</div>
           </div>
           <div className="skills-item">
-            <img className="skills-item-img" src="./images/python.svg"></img>
+            <img className="skills-item-img" src={require("./images/python.svg").default}></img>
             <div>Python</div>
           </div>
         </div>

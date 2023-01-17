@@ -5,7 +5,7 @@ const projectsData = [
       language:"React",
       link:"https://umar-ahmed1.github.io/react-quiz-app/",
       github:"https://github.com/umar-ahmed1/react-quiz-app",
-      img:'./images/react-quiz-app.png'
+      img: require("./images/react-quiz-app.png")
     },
     {
       title:"React Portfolio Website",
