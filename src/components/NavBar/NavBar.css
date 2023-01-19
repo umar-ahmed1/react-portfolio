@@ -4,16 +4,15 @@
     justify-content:space-between;
     align-items:center;
     color:rgb(0, 0, 0);
-    height:7vh;
+    height:9vh;
     position:fixed;
     z-index:1;
     top:0;
     right:0;
     left:0;
-    background-color:rgba(46,46,53,0.99);
+    background-color:rgba(46,46,53,1);
     color:rgb(230,227,211);
     transition: all 0.3s;
-    
 }
 
 .navbar.inactive{
@@ -30,6 +29,10 @@
     margin-left:20px;
     font-size:1.6rem;
     cursor:pointer;
+}
+
+.nav-link:hover{
+    color:rgb(197, 0, 0);
 }
 
 .left-section{

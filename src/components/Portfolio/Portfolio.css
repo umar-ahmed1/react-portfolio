@@ -20,8 +20,13 @@
 .projects-header{
     margin-bottom:1.5rem;
     font-size:3rem;
-    color:rgb(220,165,71);
+}
 
+.projects-description{
+    font-size:1.3rem;
+    margin-bottom:2rem;
+    text-align:center;
+    width:60%;
 }
 
 .projects-languages-button{
@@ -90,6 +95,12 @@
 .project-card-github{
     margin-top:5px;
     margin-left:5px;
+    
+}
+
+.github-svg{
+    background:white;
+    border-radius:20px;
 }
 
 .project-card-view{

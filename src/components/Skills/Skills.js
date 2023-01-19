@@ -5,6 +5,7 @@ export default function Skills() {
   return (
     <section className="skills" id="skills">
         <h2 className="skills-header">Skills</h2>
+        <div className="skills-description">Insert description here</div>
         <div className="skills-body">
           <div className="skills-item">
             <img className="skills-item-img" src={require("./images/html.svg").default}></img>
