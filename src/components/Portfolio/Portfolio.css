@@ -5,6 +5,7 @@
     margin-top:10%;
     width:75%;
     margin-left:13%;
+    color:white;
 }
 
 .projects-wrapper{
@@ -31,14 +32,15 @@
     font-weight:500;
     font-size:1.5rem;
     background:none;
-    color:rgb(220,165,71);
-    border:2px solid rgb(220,165,71);
+    color:rgb(230,227,211);
+    border:2px solid rgb(230,227,211);
     border-radius:0.5rem;
     cursor:pointer;
+    transition: all 0.3s;
 }
 
 .projects-languages-button.clicked{
-    background:rgb(220,165,71);
+    background:rgb(230,227,211);
     color:rgb(46,46,53);
     cursor:pointer;
 }
@@ -54,11 +56,10 @@
 
 .project-card{
     padding:1rem;
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(49,49,53);
     border-radius:10px;
     width:400px;
     height:100%;
-    color:rgb(49,49,49);
     position:relative;
     font-size:1.4rem;
 }
@@ -73,6 +74,7 @@
     margin-top:1rem;
     font-size:1.8rem;
     margin-bottom:1rem;
+    color:rgb(230,227,211);
 }
 
 .project-card-description{
@@ -91,8 +93,9 @@
 }
 
 .project-card-view{
-    background-color:rgb(49,49,49);
-    color:white;
+    color:rgb(230,227,211);
+    border:2px solid rgb(230,227,211);
+    background:none;
     font-size:1.2rem;
     padding: 0.5rem 0.5rem;
     border-radius:0.5rem;
