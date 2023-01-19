@@ -18,7 +18,7 @@ export default function About()  {
               }}
             />
             </div>
-            <button className="button cv">Download CV</button>
+            <button className="button cv">DOWNLOAD CV</button>
  
         </div>
     </section>

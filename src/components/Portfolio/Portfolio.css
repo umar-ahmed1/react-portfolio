@@ -19,7 +19,8 @@
 .projects-header{
     margin-bottom:1.5rem;
     font-size:3rem;
-    color:rgb(49,49,49);
+    color:rgb(220,165,71);
+
 }
 
 .projects-languages-button{
@@ -27,16 +28,18 @@
     margin-right:5px;
     margin-left:5px;
     padding: 0.7rem 1.1rem;
-    font-weight:700;
+    font-weight:500;
     font-size:1.5rem;
-    color:rgba(49, 49, 49, 0.774);
+    background:none;
+    color:rgb(220,165,71);
+    border:2px solid rgb(220,165,71);
     border-radius:0.5rem;
     cursor:pointer;
 }
 
 .projects-languages-button.clicked{
-    background-color:rgb(49,49,49);
-    color:white;
+    background:rgb(220,165,71);
+    color:rgb(46,46,53);
     cursor:pointer;
 }
 

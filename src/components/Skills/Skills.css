@@ -4,15 +4,17 @@
     align-items:center;
     justify-content: center;
     margin-top:5%;
-    width:75%;
-    margin-left:13%;
-    padding: 10px 10px;
+    width:100%;
+    color:rgb(240,240,240);
+    background-color:rgb(52,52,59);
+    padding-bottom:2%;
+    padding-top:2%;
 }
 
 .skills-header{
     margin-bottom:1.5rem;
     font-size:3rem;
-    color:rgb(49,49,49);
+    color:rgb(220,165,71);
 }
 
 .skills-body{
@@ -35,6 +37,6 @@
 }
 
 .skills-item-img {
-    width:80%;
+    width:60%;
     margin-bottom:20px;
 }

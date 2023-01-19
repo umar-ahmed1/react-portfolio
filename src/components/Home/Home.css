@@ -5,6 +5,7 @@
     margin-top:10%;
     width:75%;
     margin-left:15%;
+    color:rgb(240,240,240);
 }
 
 .profile-picture{
@@ -12,7 +13,7 @@
     height:20rem;
     margin-right:5rem;
     border:5px solid grey;
-    background-color:rgb(49,49,49);
+    background-color:rgb(46,46,53);
     border-radius: 25px;
 }
 
@@ -29,13 +30,11 @@
     font-size:3rem;
     text-align:left;
     margin-bottom:3.5rem;
-    color:rgb(49,49,49);
 }
 
 .description{
     text-align:left;
     margin-bottom:4.5rem;
-    color:rgb(49,49,49);
     font-size:1.5rem;
     max-width:60%;
     height:3rem;
@@ -44,11 +43,17 @@
 .button.cv{
     width:30%;
     height:5rem;
-    font-weight:700;
+    font-weight:500;
     font-size:1.8rem;
-    background:rgb(49, 49, 49);
-    color:rgb(255, 255, 255);
+    background:none;
+    border:2px solid rgb(220,165,71);
+    color:rgb(220,165,71);
     border-radius:0.5rem;
     cursor:pointer;
+    transition: all 0.5s;
 }
 
+.button.cv:hover{
+    background:rgb(220,165,71);
+    color:rgb(46,46,53);
+}
