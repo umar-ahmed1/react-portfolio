@@ -8,8 +8,8 @@
     position:fixed;
     z-index:1;
     top:0;
-    right:0;
-    left:0;
+    right:7%;
+    left:7%;
     background-color:rgba(46,46,53,1);
     color:rgb(230,227,211);
     transition: all 0.3s;
@@ -36,11 +36,30 @@
 }
 
 .left-section{
-    margin-left:1rem;
+    font-size:1.6rem;
 }
 
+
 .right-section{
-    margin-right:1rem;
     display:flex;
-    
+    align-items:center;
+    font-size:1.6rem;   
+}
+
+.linkedin-svg{
+    background:rgb(230,227,211);
+    border-radius:10px;
+}
+
+.right-section div{
+    margin-right:1rem;
+}
+
+@media (max-width:600px){
+    .right-section{
+        display:none;
+    }
+    .left-section{
+        display:none;
+    }
 }

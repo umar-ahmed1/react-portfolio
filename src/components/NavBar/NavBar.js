@@ -29,7 +29,9 @@ export default function NavBar() {
         <Link className="nav-link" to="connect" offset={-50} spy={true} smooth={true} duration={500}>CONNECT</Link>
       </div>
       <div className="right-section">
-        <div>IN</div>
+        <div>
+          <img className="linkedin-svg" src={require("./images/linkedin.svg").default}></img>
+        </div>
         <div>GRAM</div>
         <div>GIT</div>
       </div>

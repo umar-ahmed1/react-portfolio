@@ -4,6 +4,7 @@ import Home from './components/Home/Home'
 import Portfolio from './components/Portfolio/Portfolio'
 import Connect from './components/Connect/Connect'
 import Skills from './components/Skills/Skills'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Skills/>
       <Portfolio/>
       <Connect/>
+      <Footer/>
     </>
   );
 }
