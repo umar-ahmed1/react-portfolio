@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.91f23385.css",
-    "main.js": "/react-portfolio/static/js/main.1b728a87.js",
+    "main.css": "/react-portfolio/static/css/main.f6830028.css",
+    "main.js": "/react-portfolio/static/js/main.8f073c1c.js",
     "static/media/react-quiz-app.png": "/react-portfolio/static/media/react-quiz-app.be24626e00420caf941b.png",
-    "static/media/react.svg": "/react-portfolio/static/media/react.00fa8ae48c11168d01e6233ef82f126d.svg",
-    "static/media/java.svg": "/react-portfolio/static/media/java.8ee5f9813e1ebcd16f2a36152b8dc856.svg",
-    "static/media/python.svg": "/react-portfolio/static/media/python.6a8b2999db46fb931134216e8fdfdb2c.svg",
-    "static/media/html.svg": "/react-portfolio/static/media/html.e248da514edac2a2a66bde8fa0166701.svg",
-    "static/media/css.svg": "/react-portfolio/static/media/css.62dd7a7609a4f5253941ee34c348b64e.svg",
+    "static/media/python.svg": "/react-portfolio/static/media/python.0fb316c4544d90ec71c320805e08b55f.svg",
+    "static/media/java.svg": "/react-portfolio/static/media/java.d22c0b06306775a60247fd2bcf4a314e.svg",
+    "static/media/react.svg": "/react-portfolio/static/media/react.ab1ff68d76c4d0e24cd2b9b64949b9a0.svg",
     "index.html": "/react-portfolio/index.html",
-    "static/media/javascript.svg": "/react-portfolio/static/media/javascript.87a6904ffa190a37c824d0b73ff669c4.svg",
-    "main.91f23385.css.map": "/react-portfolio/static/css/main.91f23385.css.map",
-    "main.1b728a87.js.map": "/react-portfolio/static/js/main.1b728a87.js.map"
+    "static/media/javascript.svg": "/react-portfolio/static/media/javascript.c48949f9ff85ada56f261ad7885a7b77.svg",
+    "static/media/css.svg": "/react-portfolio/static/media/css.9bd764668f3e3741833b14b1abe435c5.svg",
+    "static/media/html.svg": "/react-portfolio/static/media/html.9455ae052c460417dad3e8cee4f2de3a.svg",
+    "main.f6830028.css.map": "/react-portfolio/static/css/main.f6830028.css.map",
+    "main.8f073c1c.js.map": "/react-portfolio/static/js/main.8f073c1c.js.map"
   },
   "entrypoints": [
-    "static/css/main.91f23385.css",
-    "static/js/main.1b728a87.js"
+    "static/css/main.f6830028.css",
+    "static/js/main.8f073c1c.js"
   ]
 }
