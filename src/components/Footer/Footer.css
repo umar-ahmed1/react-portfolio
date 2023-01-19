@@ -8,6 +8,23 @@
     display:flex;
     align-items:center;
     justify-content:center;
-    height:7vh;
+    height:9vh;
     border-top:2px solid rgb(230,227,211);
+    position:relative;
+}
+
+.return-top{
+    position:absolute;
+    display:flex;
+    align-items:center;
+    right:5%;
+    background:rgb(230,227,211);
+    color:rgb(52,52,59);
+    border-radius:0.5rem;
+    cursor:pointer;
+    height:3rem;
+    font-weight:500;
+    font-size:1rem;
+    border:2px solid rgb(230,227,211);
+    padding:1rem;
 }
