@@ -60,7 +60,6 @@
 }
 
 .project-card{
-    padding:1rem;
     background-color:rgb(49,49,53);
     font-size:1.4rem;
     border-radius:10px;
@@ -76,6 +75,9 @@
 }
 
 .project-card-front{
+    padding:1rem;
+    display:flex;
+    flex-direction: column;
     cursor:pointer;
     position:absolute;
     height:100%;
@@ -83,6 +85,7 @@
 }
 
 .project-card-back{
+    padding:1rem;
     cursor:pointer;
     position:absolute;
     height:100%;
