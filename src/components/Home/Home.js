@@ -18,8 +18,9 @@ export default function About()  {
               }}
             />
             </div>
-            <button className="button cv">DOWNLOAD CV</button>
- 
+            <a download target="_blank" href="https://docs.google.com/document/d/1pfW2VNFhOxRROkMrxz0rXqnq-KFKutze/edit?usp=sharing&ouid=117530086391634266355&rtpof=true&sd=true">
+              <button className="button cv">VIEW RESUME</button>
+            </a>
         </div>
     </section>
   )
