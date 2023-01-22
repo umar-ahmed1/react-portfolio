@@ -3,9 +3,10 @@
     align-items:center;
     justify-content: center;
     margin-top:10%;
-    width:75%;
-    margin-left:13%;
+    width:100%;
     color:rgb(230,227,211);
+    background-color:rgb(52,52,59);
+    padding: 10% 0;
 }
 
 .projects-wrapper{

@@ -24,6 +24,7 @@ export default function NavBar() {
       </div>
       <div className="middle-section">
         <Link className="nav-link" to="home" offset={-190} spy={true} smooth={true} duration={500}>HOME</Link>
+        <Link className="nav-link" to="about" offset={-190} spy={true} smooth={true} duration={500}>ABOUT</Link>
         <Link className="nav-link" to="skills" offset={-100} spy={true} smooth={true} duration={500}>SKILLS</Link>
         <Link className="nav-link" to="projects" offset={-100} spy={true} smooth={true} duration={500}>PORTFOLIO</Link>
         <Link className="nav-link" to="connect" offset={-50} spy={true} smooth={true} duration={500}>CONNECT</Link>
