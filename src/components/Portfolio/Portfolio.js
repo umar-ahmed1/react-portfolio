@@ -29,7 +29,7 @@ export default function Portfolio() {
     <section className="projects" id="projects">
         <div className="projects-wrapper">
           <h2 className="projects-header">Portfolio</h2>
-          <div className="projects-description">A selection of my past and current projects, showcasing my skills and experience in building responsive and user-friendly applications</div>
+          <div className="projects-description">A selection of my past and current projects, showcasing my skills and experience in building dynamic and user-friendly applications</div>
           <div className="projects-languages">
             <button id={'All'} onClick= {(e) => filterProjects(e)} 
               className={clickedButton === 'All' ? "projects-languages-button clicked" : "projects-languages-button"}

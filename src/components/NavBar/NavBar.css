@@ -8,12 +8,14 @@
     position:fixed;
     z-index:1;
     top:0;
-    right:7%;
-    left:7%;
+    left:0;
+    right:0;
     background-color:rgba(46,46,53,1);
     color:rgb(230,227,211);
     transition: all 0.3s;
 }
+
+
 
 .navbar.inactive{
     top:-6rem;
@@ -36,11 +38,13 @@
 }
 
 .left-section{
+    margin-left:7%;
     font-size:1.6rem;
 }
 
 
 .right-section{
+    margin-right:7%;
     display:flex;
     align-items:center;
     font-size:1.6rem;   
