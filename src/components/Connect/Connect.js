@@ -12,10 +12,10 @@ export default function Connect() {
   const onSubmit = (e) => {
     e.preventDefault();
     send(
-      'service_0i0cznr',
-      'template_vm3tmwh',
+      process.env.REACT_APP_EMAILJS_SERVICE_ID,
+      process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
       emailInfo,
-      'zp88ba8rSiBvd-H-Y'
+      process.env.REACT_APP_EMAILJS_API_KEY,
     )
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
