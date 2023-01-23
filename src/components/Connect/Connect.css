@@ -14,3 +14,29 @@
 .connect-header{
     font-size:3rem;
 }
+
+.email-form{
+    display:flex;
+    flex-direction:column;
+}
+
+.email-form input{
+    padding:10px;
+    margin-bottom:2rem;
+}
+
+.email-form button{
+    height:2rem;
+    font-size:1.3rem;
+    background:none;
+    border:2px solid rgb(230,227,211);
+    color:rgb(230,227,211);
+    border-radius:0.5rem;
+    cursor:pointer;
+    transition: all 0.3s;
+}
+
+.email-form button:hover{
+    background:rgb(230,227,211);
+    color:rgb(46,46,53);
+}

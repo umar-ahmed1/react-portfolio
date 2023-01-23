@@ -1,7 +1,36 @@
 import React from 'react'
 import './Connect.css'
+import { send } from 'emailjs-com'
 
 export default function Connect() {
+  const [emailInfo, setEmailInfo] = React.useState({
+    from_name: '',
+    message: '',
+    reply_to: '',
+  });
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+    send(
+      'service_0i0cznr',
+      'template_vm3tmwh',
+      emailInfo,
+      'zp88ba8rSiBvd-H-Y'
+    )
+      .then((response) => {
+        console.log('SUCCESS!', response.status, response.text);
+      })
+      .catch((err) => {
+        console.log('FAILED...', err);
+      });
+  };
+
+  const handleChange = (e) => {
+    setEmailInfo({ ...emailInfo, [e.target.name]: e.target.value });
+  }
+
+
+
   return (
     <div className="connect" id="connect">
       <div className="connect-header">Connect</div>
@@ -9,6 +38,36 @@ export default function Connect() {
       <div>Github</div>
       <div>Instagram</div>
       <button>Email</button>
+
+      <form className="email-form" onSubmit={onSubmit}>
+        <div>Your Name</div>
+        <input
+          type='text'
+          name='from_name'
+          placeholder='Your Name'
+          value={emailInfo.from_name}
+          onChange={handleChange}
+        />
+        <div>Your Email</div>
+        <input
+          type='text'
+          name='reply_to'
+          placeholder='Your Email'
+          value={emailInfo.reply_to}
+          onChange={handleChange}
+        />
+        <div>Your Message</div>
+        <input
+          type='text'
+          name='message'
+          placeholder='Your message'
+          value={emailInfo.message}
+          onChange={handleChange}
+        />
+        
+      <button type='submit'>Submit</button>
+  </form>
+
     </div>
   )
 }
