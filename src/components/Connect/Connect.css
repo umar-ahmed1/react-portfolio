@@ -13,20 +13,56 @@
 
 .connect-header{
     font-size:3rem;
+    margin-bottom:3rem;
 }
 
+.connect-content{
+    display:flex;
+    justify-content:center;
+}
+
+.connect-left{
+    margin-right:3rem;
+    width:30%;
+    font-size:2rem;
+}
+
+.connect-left div{
+    margin-bottom:4rem;
+}
+
+.phone-div{
+    padding: 0.5rem 1rem;
+    display:flex;
+    justify-content:space-between;
+    border:2px solid grey;
+    margin-bottom: 1rem;
+}
+
+.phone-div div{
+    margin-bottom:0;
+}
 .email-form{
     display:flex;
     flex-direction:column;
 }
 
+
+
+.email-form div{
+    font-size:1.5rem;
+    margin-bottom:0.5rem;
+}
+
 .email-form input{
-    padding:10px;
+    padding: 1rem 3rem;
     margin-bottom:2rem;
+    border-radius:10px;
+    background-color:rgb(230,227,211);
 }
 
 .email-form button{
-    height:2rem;
+    height:3rem;
     font-size:1.3rem;
     background:none;
     border:2px solid rgb(230,227,211);
