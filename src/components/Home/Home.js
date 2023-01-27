@@ -5,7 +5,9 @@ import Typewriter from 'typewriter-effect'
 export default function About()  {
  return (
     <section className="home" id="home">
-          <div className="profile-picture"></div>
+          <div className="profile-picture">
+            <img className="profile-svg" src={require("./images/user.svg").default}></img>
+          </div>
           <div className="profile-details">
             <div className="name">Hi, I'm Umar Ahmed</div>
             <div className="description">

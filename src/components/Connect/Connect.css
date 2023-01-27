@@ -35,8 +35,9 @@
     padding: 0.5rem 1rem;
     display:flex;
     justify-content:space-between;
-    border:2px solid grey;
+    border:2px solid rgb(230,227,211);
     margin-bottom: 1rem;
+    background-color: rgb(49,49,53);
 }
 
 .phone-div div{
