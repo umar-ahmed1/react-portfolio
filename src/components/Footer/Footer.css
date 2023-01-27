@@ -28,3 +28,16 @@
     border:2px solid rgb(230,227,211);
     padding:1rem;
 }
+
+
+@media(max-width:600px){
+    .author{
+        position:absolute;
+        left:5%;
+        max-width:50%;
+    }
+
+    .return-top{
+        max-width:50%;
+    }
+}
